@@ -4,9 +4,8 @@
   "description": "A good enough starter kit for a React project, I guess.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack.js",
-    "test": "jest"
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "build": "webpack.js"
   },
   "repository": {
     "type": "git",
