@@ -15,7 +15,7 @@ const Stories = (props) => {
             // INSTEAD OF returning the div below, return a Story component
             // Be sure to pass down the correct props!
             return <Story authName = {story.authName}
-                          authImage = {story.authImage}
+                          authImg = {story.authImg}
                           img = {story.img}
                           title = {story.title}
                           estTime={story.estTime}

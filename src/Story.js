@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from './Button';
 import Author from './Author';
 import './Story.css';
 
