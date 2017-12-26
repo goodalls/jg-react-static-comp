@@ -13,12 +13,12 @@ const Story = (props) => {
           <p>{props.desc}</p>
         </div>
         <Author authName = {props.authName}
-                authImg = {props.authImage}
+                authImg = {props.authImg}
                 estTime = {props.estTime}
         />
-      </div>
+      </div> 
     </div>
-  )
-}
+  );
+};
 
 export default Story;

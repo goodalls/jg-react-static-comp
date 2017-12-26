@@ -1,14 +1,15 @@
 import React from 'react';
+import Button from './Button.js';
 import './Header.css';
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className='Header'>
-    <p>Write a Story</p>
+    <a>Write a Story</a>
     <h1>Material</h1>
-    <p>Signin/Sign up</p>
+    <a>Sign in/Sign up</a>
     </div>
-  )
-}
+  );
+};
 
 export default Header;

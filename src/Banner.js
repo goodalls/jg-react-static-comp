@@ -17,7 +17,7 @@ const Banner = () => {
       </div>
       <div className='banner-right'></div>
     </div>
-  )
-}
+  );
+};
 
 export default Banner;

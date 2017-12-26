@@ -9,8 +9,8 @@ const Author = (props) => {
       <h4>{props.authName}</h4>
       <h4>{props.estTime} read</h4>
     </div>
-  </div>
-  )
-}
+  </div> 
+  );
+};
 
 export default Author;

@@ -20,12 +20,12 @@ const Stories = (props) => {
                           title = {story.title}
                           estTime={story.estTime}
                           desc = {story.desc}
-                          />
+                          />;
           })
         }
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Stories;
