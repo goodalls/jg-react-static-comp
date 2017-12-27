@@ -7,6 +7,7 @@ import './App.css';
 
 const stories = [
   {
+    key: 'font',
     img: '../public/story1.jpg',
     title: 'Winning at Fonts',
     desc: 'or, Why you should care about typography',
@@ -15,6 +16,7 @@ const stories = [
     estTime: '2 min'
   },
   {
+    key: 'hoodlums',
     img: '../public/story2.jpg',
     title: 'Hoodlums: a dissertation',
     desc: 'Examining villains in modern storytelling',
@@ -23,6 +25,7 @@ const stories = [
     estTime: '10 min'
   },
   {
+    key: 'sport',
     img: '../public/story3.jpg',
     title: 'Halloween is a year-round sport',
     desc: 'Those who say otherwise just aren\'t trying hard enough.',
@@ -31,6 +34,7 @@ const stories = [
     estTime: '8 min'
   },
   {
+    key: 'fart',
     img: '../public/story4.jpg',
     title: 'How to Improve Learning and Classroom Engagement with Humor',
     desc: 'Okay, so first of all, everybody knows fart jokes are hilarious ...',
