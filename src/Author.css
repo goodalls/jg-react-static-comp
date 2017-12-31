@@ -20,3 +20,18 @@
   font-weight: normal;
   margin: 0 0 0 10px;
 }
+
+@media screen and (max-width: 1024px){
+  .author-image {
+    max-width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .author-image {
+    max-width: 50px;
+    height: 50px;
+  }
+}
+

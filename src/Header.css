@@ -24,3 +24,14 @@ h1 {
   font-weight: bolder;
   margin: 0;
 }
+
+@media screen and (max-width: 768px){
+  .Header {
+    flex-direction: column;
+  }
+
+  a {
+    margin: 20px;
+    width: 100%;
+  }
+}
