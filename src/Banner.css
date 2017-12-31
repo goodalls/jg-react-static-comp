@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 768px){
   .Banner {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   
   .banner-left {
@@ -45,5 +45,6 @@
 
   .banner-right {
     width: 100%;
+    height: 335px;
   }  
 }
